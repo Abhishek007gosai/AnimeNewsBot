@@ -18,12 +18,8 @@ user_settings_collection = db["user_settings"]
 global_settings_collection = db["global_settings"]
 
 
-app = Client(
-    "AnimeNewsbot",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN
-)
+app = Client("AnimeNewsBot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+
 
 webhook_thread = threading.Thread(target=start_webhook, daemon=True)
 webhook_thread.start()

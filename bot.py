@@ -60,7 +60,7 @@ async def start(client, message):
         chat_id, 
         photo_url,
         caption=(
-            f"**ʙᴀᴋᴋᴀᴀᴀ {first}!!!**\n"
+            f"**ʙᴀᴋᴋᴀᴀᴀ {message.from_user.username}!!!**\n"
             f"**ɪ ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ɴᴇᴡs ʙᴏᴛ.**\n"
             f"**ɪ ᴛᴀᴋᴇ ᴀɴɪᴍᴇ ɴᴇᴡs ᴄᴏᴍɪɴɢ ғʀᴏᴍ ʀss ꜰᴇᴇᴅs ᴀɴᴅ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴍʏ ᴍᴀsᴛᴇʀ's ᴀɴɪᴍᴇ ɴᴇᴡs ᴄʜᴀɴɴᴇʟ.**"
         ),

@@ -1,6 +1,5 @@
 aiohttp
 Pyrogram
-#pyrofork
 pymongo
 python-dotenv
 flask

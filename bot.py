@@ -12,6 +12,15 @@ from webhook import start_webhook
 
 from modules.rss.rss import news_feed_loop
 
+from pyrogram import Client
+from config import API_ID, API_HASH, BOT_TOKEN
+
+app = Client(
+    "bot",
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=BOT_TOKEN
+)
 
 mongo_client = pymongo.MongoClient(MONGO_URI)
 db = mongo_client["AnimeNewsBot"]

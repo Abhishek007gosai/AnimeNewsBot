@@ -6,5 +6,5 @@ BOT_TOKEN = "7845096754:AAGtGSwNYZrzKlD_rZrVTPNucq8dCl_iE1I" #Bot Token get it f
 URL_A = "http://myanimelist.net/rss.php?type=news" #News RSS Feed Url 2
 #URL_B = "" #News RSS Feed Url 2
 START_PIC = "https://litter.catbox.moe/m4c4wu.jpg" #Startup Pic
-MONGO_URI = "mongodb+srv://BladexRobot:az50i6VCbZnez34y@cluster0.8uydmmp.mongodb.net/" #Databse uri get it from https://www.mongodb.com/
+MONGO_URI = "mongodb+srv://bladexrobot:i8a3Lwktoro7sdMt@cluster0.8uydmmp.mongodb.net/?retryWrites=true&w=majority" #Databse uri get it from https://www.mongodb.com/
 ADMINS = "7654385403" #Admin ID

@@ -2,7 +2,7 @@ import os
 
 API_ID = 29245477
 API_HASH = "0abc83883262245c90ca337b7a0375c4"
-BOT_TOKEN = "8691693420:AAGrylRfIFPNAu9epkLrSmORjDwzTS5Bu2o"
+BOT_TOKEN = "8747154145:AAFCEoSSfsO7xiUyiOkynA11GPOw0kdN_GY"
 OWNER_ID = 8667251104
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "8667251104"))
 LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002456565415")
@@ -16,4 +16,4 @@ ABOUT_MSG = os.environ.get("ABOUT_MSG", "<b><blockquote>◈sᴜᴘʀᴇᴀᴍ : 
 START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/4k0jx6.jpg")
 HELP_PIC = os.environ.get("HELP_PIC", "https://files.catbox.moe/4k0jx6.jpg")
 ABOUT_PIC = os.environ.get("ABOUT_PIC", "https://files.catbox.moe/4k0jx6.jpg")
-CHNL_USERNAME = "@Anime_News_Arena"
+CHNL_USERNAME = "Anime_News_Arena"

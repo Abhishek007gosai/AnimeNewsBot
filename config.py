@@ -16,4 +16,4 @@ ABOUT_MSG = os.environ.get("ABOUT_MSG", "<b><blockquote>◈sᴜᴘʀᴇᴀᴍ : 
 START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/4k0jx6.jpg")
 HELP_PIC = os.environ.get("HELP_PIC", "https://files.catbox.moe/4k0jx6.jpg")
 ABOUT_PIC = os.environ.get("ABOUT_PIC", "https://files.catbox.moe/4k0jx6.jpg")
-CHNL_USERNAME = "Anime_News_Arena"
+CHNL_USERNAME = "@Anime_News_Arena"

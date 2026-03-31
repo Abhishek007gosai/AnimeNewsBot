@@ -46,10 +46,10 @@ async def broadcast_news(app: Client):
 
         try:
             caption = (
-                f"<blockquote><b>{item.title}</b></blockquote>\n\n"
-                f"<blockquote><b>{item.summary}</b></blockquote>\n\n"
-                f"──── 📖 <a href='{item.source_url}'><b>SOURCE</b></a> ────\n"
-                f"── » <blockquote><b>{CHNL_USERNAME}</b></blockquote>"
+                f"<blockquote><b>{item.title}</b></blockquote>\n"
+                f"<b>{item.summary}</b>\n"
+                f"<a href='{item.source_url}'><b>>────「  📖 SOURCE  」</b></a>\n"
+                f"»<blockquote><b>» @{CHNL_USERNAME}</b></blockquote>"
             )
             markup = get_markup(item.link)
 
@@ -61,7 +61,7 @@ async def broadcast_news(app: Client):
                         await app.send_photo(
                             chat_id=chat_id,
                             photo=item.image_url,
-                            caption=caption,
+                           caption=caption,
                             parse_mode=ParseMode.HTML,
                             reply_markup=markup
                         )

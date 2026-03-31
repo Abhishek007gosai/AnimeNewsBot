@@ -25,7 +25,7 @@ async def broadcast_news(app: Client):
 
     def get_markup(url: str) -> InlineKeyboardMarkup:
         return InlineKeyboardMarkup([[
-            InlineKeyboardButton("Rᴇᴀᴅ ɪᴛ ғᴜʟʟʏ...", url=url)
+            InlineKeyboardButton("NEWS SOURCE", url=url)
         ]])
 
     def resolve_chat_id(channel):
@@ -49,7 +49,7 @@ async def broadcast_news(app: Client):
                 f"<blockquote><b>{item.title}</b></blockquote>\n"
                 f"<b>{item.summary}</b>\n"
                 f"<a href='{item.source_url}'><b>>────「  📖 SOURCE  」</b></a>\n"
-                f"»<blockquote><b>» @{CHNL_USERNAME}</b></blockquote>"
+                f"<b>» {CHNL_USERNAME}</b>"
             )
             markup = get_markup(item.link)
 

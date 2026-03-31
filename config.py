@@ -1,9 +1,9 @@
 import os
 
-API_ID = int(os.environ.get("API_ID", "29245477"))
-API_HASH = os.environ.get("API_HASH", "0abc83883262245c90ca337b7a0375c4")
+API_ID = 29245477
+API_HASH = "0abc83883262245c90ca337b7a0375c4
 BOT_TOKEN = "8691693420:AAGrylRfIFPNAu9epkLrSmORjDwzTS5Bu2o"
-OWNER_ID = int(os.environ.get("OWNER_ID", "8667251104"))
+OWNER_ID = 8667251104
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "8667251104"))
 LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002456565415")
 UPDATE_INTERVAL = int(os.environ.get("UPDATE_INTERVAL", "5")) # minutes

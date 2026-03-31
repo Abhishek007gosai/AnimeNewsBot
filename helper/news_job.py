@@ -48,7 +48,6 @@ async def broadcast_news(app: Client):
             caption = (
                 f"<blockquote><b>{item.title}</b></blockquote>\n"
                 f"<b>{item.summary}</b>\n"
-                f"<a href='{item.source_url}'><b>>────「  📖 SOURCE  」</b></a>\n"
                 f"<b>» {CHNL_USERNAME}</b>"
             )
             markup = get_markup(item.link)

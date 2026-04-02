@@ -2,11 +2,11 @@ import os
 
 API_ID = 29245477
 API_HASH = "0abc83883262245c90ca337b7a0375c4"
-BOT_TOKEN = "8747154145:AAE3rPa1xBX7wrL-Ia0rvGfT-gQRHvQ75aI"
+BOT_TOKEN = "8711741226:AAFfxYwAtKahdSyOSk3yUmlhHCC53u4S9Ko"
 OWNER_ID = 8667251104
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "8667251104"))
 LOG_CHANNEL = -1003746574484
-UPDATE_INTERVAL = int(os.environ.get("UPDATE_INTERVAL", "5")) # minutes
+UPDATE_INTERVAL = int(os.environ.get("UPDATE_INTERVAL", "2")) # minutes
 PORT = 8080 # for web health checks
 DB_NAME = "toukaxbot"
 DB_URL = "mongodb+srv://toukarenamebot:FAc45CUILd6uwYpn@toukaxbot.sssw7ob.mongodb.net/?retryWrites=true&w=majority&appName=toukaxbot"
